@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: linear-gradient(to right, rgb(10, 239, 138), rgb(41, 79, 249));
+  margin-left: 25vh;
+  margin-right: 25vh;
+  margin-top: 5vh;
+  min-width: 250px;
+}
+
+
+.header {
+  background-color: dimgrey;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+  border: 2px solid white;
+}
+
+
+input {
+  margin: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  outline: none !important;
+}
+
+
+.enter {
+  padding: 6px;
+  width: 25%;
+  background: transparent;
+  color: white;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid white;
+  outline: none !important;
+}
+
+.enter:hover {
+  background-color: white;
+  color: dimgrey;
+  border: 2px solid grey;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Handlee', cursive;
+  color: dimgrey;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: white;
+  border-bottom: 2px solid dimgrey;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+ul li:hover {
+font-weight: bold;
+}
+
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+.checked {
+  text-decoration: line-through;
+  background-color: rgb(10, 239, 138);
+  border: 2px solid white;
+  border-top: none;
+  color: white;
+}
